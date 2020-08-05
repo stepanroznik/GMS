@@ -1,0 +1,6 @@
+draw_set_alpha(1)
+draw_sprite(spr_voda,floor(iimage_index),x,y)
+draw_set_alpha(iimage_index-floor(iimage_index))
+draw_sprite(spr_voda,floor(iimage_index+1),x,y)
+draw_set_alpha((iimage_index-floor(iimage_index))/2)
+draw_sprite(spr_voda,floor(iimage_index+2),x,y)

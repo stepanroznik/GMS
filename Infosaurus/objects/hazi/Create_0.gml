@@ -1,0 +1,9 @@
+image_speed=0
+image_xscale=8
+image_yscale=8
+image_index=level-1
+move_towards_point(dino.x-272,dino.y,6)
+gravity=0.000
+image_alpha=0
+sub=0
+time=0

@@ -1,0 +1,12 @@
+Converting GML script: ${project_dir}\scripts\define_variables\define_variables.gml
+Error: variable 'bool' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Font calibri has been converted to font family Trebuchet MS (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\calibri\calibri.gms1.png
+Font calibri_bold has been converted to font family Trebuchet MS (Bold)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\calibri_bold\calibri_bold.gms1.png
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Game speed set to 60
+Added compatibility script 'action/action_sprite_transform.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script '__init_global.gml'

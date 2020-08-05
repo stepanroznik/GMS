@@ -1,0 +1,1 @@
+audio_play_sound(coincount,2,0);

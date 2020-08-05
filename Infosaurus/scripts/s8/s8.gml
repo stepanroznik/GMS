@@ -1,0 +1,1 @@
+instance_create_depth(2500+120*1,700-40,-2,quest)

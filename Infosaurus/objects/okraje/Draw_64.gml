@@ -1,0 +1,7 @@
+draw_set_color(barva)
+draw_set_alpha(1)
+draw_rectangle(-1920,0,-1,1080,			0)
+draw_rectangle(1920,0,1920+1920,1080,	0)
+draw_rectangle(0,-4000,1920,-1,			0)
+draw_rectangle(0,1080,1920,1080+4000,	0)
+draw_set_color(bila)

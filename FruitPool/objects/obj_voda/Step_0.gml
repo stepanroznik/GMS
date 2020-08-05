@@ -1,0 +1,1 @@
+iimage_index+=0.025

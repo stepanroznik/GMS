@@ -1,0 +1,2 @@
+txt="";
+keyboard_string="";

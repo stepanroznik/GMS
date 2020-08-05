@@ -1,0 +1,1 @@
+script_execute(add_question())

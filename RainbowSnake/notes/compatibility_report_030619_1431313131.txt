@@ -1,0 +1,88 @@
+Converting GML script: ${project_dir}\scripts\location_documentation\location_documentation.gml
+Converted description /// @description location_documentation()
+
+!!! Font Book uses a font (Bebas Neue Book) not installed on this system - Font has NOT been regenerated
+!!! Font Book_smaller uses a font (Bebas Neue Book) not installed on this system - Font has NOT been regenerated
+!!! Font Book_small uses a font (Bebas Neue Book) not installed on this system - Font has NOT been regenerated
+!!! Font Regular uses a font (Bebas Neue Regular) not installed on this system - Font has NOT been regenerated
+Font Calibri has been converted to font family Calibri (Regular) - Font has been regenerated, small inconsistencies may occur
+!!! Font fnt_std_gpsdemo uses a font (Roboto) not installed on this system - Font has NOT been regenerated
+Converting GML script: ${project_dir}\objects\Hero\Step_0.gml
+Converted builtin - line 96: view_vspeed[1]+=0.5 -> __view_set( e__VW.VSpeed, 1, __view_get( e__VW.VSpeed, 1 ) + (0.5) )
+
+Converting GML script: ${project_dir}\objects\tlacitko\Alarm_0.gml
+Converted builtin - line 1: view_visible[1]=false -> __view_set( e__VW.Visible, 1, false )
+Converted builtin - line 2: view_visible[2]=true -> __view_set( e__VW.Visible, 2, true )
+
+Converting GML script: ${project_dir}\objects\tlacitko\Step_0.gml
+Converted builtin - line 6: view_yview[1] -> __view_get( e__VW.YView, 1 )
+Converted builtin - line 13: view_yview[2] -> __view_get( e__VW.YView, 2 )
+Converted builtin - line 16: view_yview[1] -> __view_get( e__VW.YView, 1 )
+Converted builtin - line 18: view_yview[2] -> __view_get( e__VW.YView, 2 )
+Converted builtin - line 33: view_yview[2] -> __view_get( e__VW.YView, 2 )
+Converted builtin - line 7: view_yview[1]-=viewspeed -> __view_set( e__VW.YView, 1, __view_get( e__VW.YView, 1 ) - (viewspeed) )
+Converted builtin - line 14: view_yview[2]+=viewspeed2 -> __view_set( e__VW.YView, 2, __view_get( e__VW.YView, 2 ) + (viewspeed2) )
+Converted builtin - line 17: view_yview[1]=0 -> __view_set( e__VW.YView, 1, 0 )
+Converted builtin - line 19: view_yview[2]=1280 -> __view_set( e__VW.YView, 2, 1280 )
+Converted builtin - line 10: view_visible[2] -> __view_get( e__VW.Visible, 2 )
+Converted builtin - line 2: view_visible[0]=false -> __view_set( e__VW.Visible, 0, false )
+Converted builtin - line 3: view_visible[1]=true -> __view_set( e__VW.Visible, 1, true )
+
+Converting GML script: ${project_dir}\objects\Soundctrl\Other_2.gml
+Error: variable 'bool' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\obj_gpsdemo\Create_0.gml
+Converted description /// @description Init GPS and start location tracking.
+
+Converting GML script: ${project_dir}\objects\obj_gpsdemo\Alarm_0.gml
+Converted description /// @description Resume location tracking if not currently updating.
+
+Converting GML script: ${project_dir}\objects\obj_gpsdemo\Step_0.gml
+Converted description /// @description Stop if location is not supported at all.
+
+Converting GML script: ${project_dir}\objects\obj_gpsdemo\Mouse_53.gml
+Converted description /// @description If GPS location has been disabled, open settings so that the user can enable it.
+
+Converting GML script: ${project_dir}\objects\obj_gpsdemo\Other_3.gml
+Converted description /// @description Stop location tracking.
+
+Converting GML script: ${project_dir}\objects\obj_gpsdemo\Draw_0.gml
+Converted description /// @description Draw info
+
+Converting GML script: ${project_dir}\objects\obj_locationpoint\Create_0.gml
+Converted description /// @description Location points are points where the user has been.
+
+Converting GML script: ${project_dir}\objects\obj_locationpoint\Draw_0.gml
+Converted description /// @description Draw this point and its accuracy (globally)./// @param globally
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'sound4_bonus' - setting to default audio group
+Missing audiogroup for sound: 'sound5_collect' - setting to default audio group
+Missing audiogroup for sound: 'sound6_fail' - setting to default audio group
+Missing audiogroup for sound: 'sound7_play_button' - setting to default audio group
+Game speed set to 50
+Added compatibility script 'action/action_create_object.gml'
+Added compatibility script 'action/action_draw_gradient_vert.gml'
+Added compatibility script 'action/action_font.gml'
+Added compatibility script 'action/action_if_number.gml'
+Added compatibility script 'action/action_if_object.gml'
+Added compatibility script 'action/action_if_variable.gml'
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'action/action_move.gml'
+Added compatibility script 'action/action_move_to.gml'
+Added compatibility script 'action/action_path.gml'
+Added compatibility script 'action/action_set_alarm.gml'
+Added compatibility script 'action/action_set_relative.gml'
+Added compatibility script 'action/action_sound.gml'
+Added compatibility script 'action/action_sprite_transform.gml'
+Added compatibility script 'action/action_timeline_set.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
